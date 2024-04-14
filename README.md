@@ -1,7 +1,7 @@
 # Simple-CTF-walkthrough
 #Step 1
  - How many services are running under port 1000?
- - Run nmap -A 10.10.115.133
+ - Run nmap -A {target IP}
     - results in: 2 ports under 1000 and 1 port over 1000
         -21/tcp   open    ftp vsftpd 3.0.3 *note-ftp-anon:Anonymous FTP login allowed
         -80/tcp   open    http    Apache httpd 2.4.18
